@@ -21,6 +21,10 @@
 
         <?php endwhile; ?>
         <?php endif; ?>
+
+        <div id="respond">
+            <?php comments_template();  ?>
+        </div>
     </div>
 </div>
 <?php get_footer(); ?>
