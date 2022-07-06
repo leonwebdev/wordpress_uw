@@ -1,0 +1,115 @@
+/*
+Theme Name: WDD10 - LAB 2
+Author: Lihang YAO <yao-l@webmail.uwinnipeg.ca>
+Author URI: http://www.leon-web-dev.com
+Version: 1.0
+*/
+
+@import desktop.css;
+@import mobile.css;
+
+/* LAB2 WP css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
+
+.sidebar li,
+.sidebar li a,
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(38, 38, 42);
+    color: rgb(242, 242, 242);
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    padding: 1rem;
+}
+
+.pd-1 {
+    padding: 1rem;
+}
+
+.sidebar {
+    min-width: 250px;
+    width: max-content;
+    border-right: solid 1px rgb(182, 182, 182);
+}
+
+.main {
+    min-width: 40rem;
+    max-width: 45rem;
+    width: fit-content;
+    padding-left: 3rem;
+}
+
+figure {
+    margin-left: 0;
+}
+
+img {
+    width: 50rem;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.one_post {
+    margin-bottom: 4rem;
+}
+
+.one_post a {
+    text-decoration: none;
+    color: rgb(8, 163, 29);
+}
+
+.one_post a:hover {
+    text-decoration: none;
+    color: rgb(255, 157, 0);
+}
+.one_post ul,
+.one_post ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+.one_post ul li a {
+    text-decoration: none;
+}
+footer {
+    background: rgb(38, 38, 42);
+    height: 5rem;
+    color: rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
