@@ -31,7 +31,8 @@
 
                 <div id="feature_pic_box2">
 
-                    <img src="./images/feature_pic.svg" alt="feature_pic" width="232" height="150">
+                    <img src="<?= get_template_directory_uri() ?>/images/feature_pic.svg" alt="feature_pic" width="232"
+                        height="150">
 
                 </div>
 
@@ -151,7 +152,7 @@
             </div>
 
             <div id="top_story_box_2">
-                <img src="./images/plants.svg" alt="plants" width="223" height="150">
+                <img src="<?= get_template_directory_uri() ?>/images/plants.svg" alt="plants" width="223" height="150">
             </div>
         </div>
 

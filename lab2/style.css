@@ -5,8 +5,8 @@ Author URI: http://www.leon-web-dev.com
 Version: 1.0
 */
 
-@import desktop.css;
-@import mobile.css;
+@import "desktop.css";
+@import "mobile.css";
 
 /* LAB2 WP css */
 
@@ -38,6 +38,8 @@ nav ul li a {
 .sidebar li a,
 a {
     text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 1rem;
 }
 
 nav {
@@ -59,6 +61,7 @@ nav {
 .sidebar {
     min-width: 250px;
     width: max-content;
+    padding-right: 2rem;
     border-right: solid 1px rgb(182, 182, 182);
 }
 
@@ -73,36 +76,31 @@ figure {
     margin-left: 0;
 }
 
-img {
-    width: 50rem;
-    height: auto;
-}
-
 .footer {
     text-align: center;
 }
 
-.one_post {
+article {
     margin-bottom: 4rem;
 }
 
-.one_post a {
+article a {
     text-decoration: none;
     color: rgb(8, 163, 29);
 }
 
-.one_post a:hover {
+article a:hover {
     text-decoration: none;
     color: rgb(255, 157, 0);
 }
-.one_post ul,
-.one_post ul li {
+article ul,
+article ul li {
     display: inline;
     list-style-type: none;
     padding: 0;
 }
 
-.one_post ul li a {
+article ul li a {
     text-decoration: none;
 }
 footer {
@@ -112,4 +110,23 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer_menu li {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+}
+
+.copyright {
+    margin-left: 1rem;
+}
+
+#searchform #s {
+    width: 7rem;
+}
+
+#header_wrapper nav {
+    margin: 0;
 }

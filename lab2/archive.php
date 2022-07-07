@@ -4,7 +4,7 @@
         <?php get_sidebar('posts'); ?>
     </div>
     <div class="main">
-        <h1>Recent Posts</h1>
+        <h1><?=get_the_archive_title();?></h1>
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : ?>
         <?php the_post(); ?>

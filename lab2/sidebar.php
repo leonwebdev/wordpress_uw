@@ -1,4 +1,4 @@
-<form role="search" method="get" id="searchform" class="searchform" action="/" style="margin-bottom: 4rem;">
+<form role="search" method="get" id="searchform" class="searchform" action="/" style="margin-bottom: 1rem;">
     <div>
         <label class="screen-reader-text" for="s">Search for:</label>
         <input type="text" value="" name="s" id="s" />

@@ -19,9 +19,9 @@
 
 <body <?php body_class() ?>>
 
-    <div id="header_wrapper" class="main_wrapper">
+    <div id="header_wrapper">
         <a target="_blank" href="./index.html" title="Gardener Home">
-            <img src="./images/logo.svg" alt="logo" width="315" height="70">
+            <img src="<?= get_template_directory_uri() ?>/images/logo.svg" alt="logo" width="315" height="70">
         </a>
         <nav>
 
