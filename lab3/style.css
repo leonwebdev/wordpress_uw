@@ -60,6 +60,41 @@ ul {
     height: auto;
 }
 
+/* ------------     F O O T E R     -------
+--------------------------------------------------- */
+
+footer {
+    background-color: rgb(0, 6, 93);
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 5rem;
+}
+
+footer div ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+
+footer div ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+footer div ul li a:hover {
+    color: rgb(247, 255, 15);
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
 /* ------------        M E D I A   Q U E R Y          -------
 --------------------------------------------------- */
 
