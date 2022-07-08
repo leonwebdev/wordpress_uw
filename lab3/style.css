@@ -10,4 +10,46 @@ Version: 1.0
 header {
     background-color: rgb(0, 6, 93);
     color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header div ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+
+header div ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header div ul li a:hover {
+    color: rgb(247, 255, 15);
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.menu-main-container {
+    display: none;
+}
+
+/* Media query 576px -sm -------------------- */
+
+@media (min-width: 576px) {
+}
+
+/* Media query 992px -lg -------------------- */
+
+@media (min-width: 992px) {
+    .menu-main-container {
+        display: block;
+    }
 }
