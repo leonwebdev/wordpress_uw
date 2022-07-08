@@ -5,7 +5,8 @@ Author URI: http://www.leon-web-dev.com
 Version: 1.0
 */
 
-/* --------------------HEADER---------- */
+/* -----------           HEADER              -------
+-------------------------------------------- */
 
 header {
     background-color: rgb(0, 6, 93);
@@ -44,6 +45,23 @@ ul {
 #header_slogen {
     color: rgb(0, 6, 93);
 }
+
+/* ------------        CALL TO ACTION          -------
+--------------------------------------------------- */
+
+.home_card_h {
+    background-color: rgb(255, 199, 77);
+    color: #fff;
+    margin: 0;
+}
+
+.home_card_img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------        M E D I A   Q U E R Y          -------
+--------------------------------------------------- */
 
 /* Media query 576px -sm -------------------- */
 
