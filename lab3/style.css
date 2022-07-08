@@ -41,6 +41,10 @@ ul {
     display: none;
 }
 
+#header_slogen {
+    color: rgb(0, 6, 93);
+}
+
 /* Media query 576px -sm -------------------- */
 
 @media (min-width: 576px) {
@@ -51,5 +55,9 @@ ul {
 @media (min-width: 992px) {
     .menu-main-container {
         display: block;
+    }
+
+    #mobile_menu {
+        display: none;
     }
 }
