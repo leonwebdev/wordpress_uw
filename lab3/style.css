@@ -4,3 +4,10 @@ Author: Lihang YAO <yao-l@webmail.uwinnipeg.ca>
 Author URI: http://www.leon-web-dev.com
 Version: 1.0
 */
+
+/* --------------------HEADER---------- */
+
+header {
+    background-color: rgb(0, 6, 93);
+    color: #fff;
+}
