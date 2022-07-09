@@ -55,7 +55,8 @@ ul {
     margin: 0;
 }
 
-.home_card_img {
+.home_card_img,
+.w_100_img {
     width: 100%;
     height: auto;
 }
