@@ -38,12 +38,30 @@ ul {
     margin: 0;
 }
 
-.menu-main-container {
+#desktop_menu .menu-main-container,
+#desktop_menu_footer .menu-main-container {
+    display: flex;
+    align-content: center;
+}
+
+#desktop_menu,
+#mobile_menu,
+#desktop_menu_footer {
     display: none;
 }
 
 #header_slogen {
     color: rgb(0, 6, 93);
+}
+#mobile_menu_icon {
+    cursor: pointer;
+}
+
+header #mobile_menu ul li {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* ------------        CALL TO ACTION          -------
@@ -107,11 +125,13 @@ footer p {
 /* Media query 992px -lg -------------------- */
 
 @media (min-width: 992px) {
-    .menu-main-container {
+    #desktop_menu,
+    #desktop_menu_footer {
         display: block;
     }
 
-    #mobile_menu {
+    #mobile_menu,
+    #mobile_menu_icon {
         display: none;
     }
 }
