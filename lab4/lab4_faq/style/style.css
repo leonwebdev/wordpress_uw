@@ -2,15 +2,18 @@
     padding: 1rem;
     border: 1px solid #8c8c8c;
     border-radius: 0.5rem;
+    margin-bottom: 2rem;
 }
 
 .faq_q {
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .faq_a {
     margin-bottom: 0;
+    height: 3rem;
+    display: none;
 }
 
 .faq_q > span,

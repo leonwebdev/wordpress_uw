@@ -15,6 +15,7 @@ if (!function_exists('lab4_add_css_n_js')) {
 
         wp_enqueue_style('lab4_faq', $css);
         wp_enqueue_script('lab4_faq', $js, ['jquery']);
+        wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js');
     }
     add_action('wp_enqueue_scripts', 'lab4_add_css_n_js');
 }
