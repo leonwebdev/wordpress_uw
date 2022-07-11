@@ -22,6 +22,10 @@ header div ul li a {
     list-style-type: none;
 }
 
+header #utility_menu ul li a {
+    font-size: 1rem;
+}
+
 header div ul li a:hover {
     color: rgb(247, 255, 15);
     text-decoration: none;
@@ -31,14 +35,24 @@ ul {
     margin: 0;
 }
 
-#desktop_menu .menu-main-container,
-#desktop_menu_footer .menu-main-container {
+#desktop_menu ul,
+#utility_menu ul,
+#desktop_menu_footer ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+}
+
+#desktop_menu > div,
+#utility_menu > div,
+#desktop_menu > div {
     display: flex;
     align-content: center;
 }
 
 #desktop_menu,
 #mobile_menu,
+#utility_menu,
 #desktop_menu_footer {
     display: none;
 }
@@ -119,6 +133,7 @@ footer p {
 
 @media (min-width: 992px) {
     #desktop_menu,
+    #utility_menu,
     #desktop_menu_footer {
         display: block;
     }
