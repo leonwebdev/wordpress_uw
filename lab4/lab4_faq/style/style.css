@@ -1,0 +1,28 @@
+.faq_card {
+    padding: 1rem;
+    border: 1px solid #8c8c8c;
+    border-radius: 0.5rem;
+}
+
+.faq_q {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.faq_a {
+    margin-bottom: 0;
+}
+
+.faq_q > span,
+.faq_a > span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.faq_q > span {
+    color: rgb(233, 38, 77);
+}
+
+.faq_a > span {
+    color: rgb(0, 132, 255);
+}
