@@ -1,0 +1,145 @@
+/* -----------           HEADER              -------
+-------------------------------------------- */
+
+header {
+    background-color: rgb(0, 6, 93);
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header div ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+
+header div ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header #utility_menu ul li a {
+    font-size: 1rem;
+}
+
+header div ul li a:hover {
+    color: rgb(247, 255, 15);
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+#desktop_menu ul,
+#utility_menu ul,
+#desktop_menu_footer ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0 !important;
+}
+
+#desktop_menu > div,
+#utility_menu > div,
+#desktop_menu > div {
+    display: flex;
+    align-content: center;
+}
+
+#desktop_menu,
+#mobile_menu,
+#utility_menu,
+#desktop_menu_footer {
+    display: none;
+}
+
+#header_slogen {
+    color: rgb(0, 6, 93);
+}
+#mobile_menu_icon {
+    cursor: pointer;
+}
+
+header #mobile_menu ul li {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* ------------        CALL TO ACTION          -------
+--------------------------------------------------- */
+
+.home_card_h {
+    background-color: rgb(255, 199, 77);
+    color: #fff;
+    margin: 0;
+}
+
+.home_card_img,
+.w_100_img {
+    width: 100%;
+    height: auto;
+}
+
+/* ------------     F O O T E R     -------
+--------------------------------------------------- */
+
+footer {
+    background-color: rgb(0, 6, 93);
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 5rem;
+}
+
+footer div ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1rem;
+    list-style-type: none;
+}
+
+footer div ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+footer div ul li a:hover {
+    color: rgb(247, 255, 15);
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ------------        M E D I A   Q U E R Y          -------
+--------------------------------------------------- */
+
+/* Media query 576px -sm -------------------- */
+
+@media (min-width: 576px) {
+}
+
+/* Media query 992px -lg -------------------- */
+
+@media (min-width: 992px) {
+    #desktop_menu,
+    #utility_menu,
+    #desktop_menu_footer {
+        display: block;
+    }
+
+    #mobile_menu,
+    #mobile_menu_icon {
+        display: none;
+    }
+}

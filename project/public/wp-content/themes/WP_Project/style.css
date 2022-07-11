@@ -1,0 +1,14 @@
+/*
+Theme Name: WDD10 - WP Project
+Theme URI: http://wp5.leon-web-dev.com
+Author: Lihang Yao <yao-l@webmail.uwinnipeg.ca>
+Author URI: http://wp5.leon-web-dev.com
+Description: Built on a solid style of design. This design is focused on the responsive content display, and easy to deploy with varieties of usage. For example, you can use this theme for NASA purpose or space debris sales.
+Requires at least: 5.9
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0
+Tags: two-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post
+*/
+
+@import "style/desktop.css";
