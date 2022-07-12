@@ -14,7 +14,9 @@
         <div class="container" id="header_container">
             <div class="row">
                 <div id="header_logo" class="col flex-grow-1 flex-lg-grow-0">
-                    <img src="<?= get_template_directory_uri() ?>/images/space_debris_logo.png" alt="logo" />
+                    <a href="<?= get_permalink(get_page_by_path('home')) ?>">
+                        <img src="<?= get_template_directory_uri() ?>/images/space_debris_logo.png" alt="logo" />
+                    </a>
                 </div>
                 <div id="desktop_menu" class="d-lg-flex col align-content-center flex-lg-grow-1">
                     <?php wp_nav_menu(['menu' => 'header_nav_menu']) ?>
