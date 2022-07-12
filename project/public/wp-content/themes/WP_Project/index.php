@@ -1,10 +1,7 @@
 <?php get_header(); ?>
 <div class="container">
-    <div class="sidebar">
-        <?php get_sidebar('posts'); ?>
-    </div>
     <div class="main">
-        <h1>Recent Posts</h1>
+        <h1>Recent News</h1>
         <?php if (have_posts()) : ?>
         <?php while (have_posts()) : ?>
         <?php the_post(); ?>
@@ -25,6 +22,9 @@
 
         <?php endwhile; ?>
         <?php endif; ?>
+    </div>
+    <div class="sidebar">
+        <?php get_sidebar(); ?>
     </div>
 </div>
 <?php get_footer(); ?>
