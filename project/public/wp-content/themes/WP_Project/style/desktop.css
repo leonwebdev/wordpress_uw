@@ -91,6 +91,30 @@ header #mobile_menu ul li {
     color: rgb(161, 10, 123);
 }
 
+/* ------------        S I D E B A R          -------
+--------------------------------------------------- */
+
+.archive_menu {
+    margin-bottom: 2rem;
+}
+
+.archive_menu li {
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.archive_menu li a {
+    color: rgb(11, 161, 231);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.archive_menu li a:hover {
+    color: rgb(255, 91, 15);
+}
+
 /* ------------        CALL TO ACTION          -------
 --------------------------------------------------- */
 

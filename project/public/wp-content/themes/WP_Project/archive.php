@@ -1,13 +1,13 @@
 <?php get_header(); ?>
+
 <section id="page_header" class="container my-3">
-    <?php if (has_post_thumbnail()) {
-        the_post_thumbnail('full');
-    } ?>
+    <img src="<?= get_template_directory_uri() ?>/images/page_header.jpg" alt="page_header" class="w_100_img" />
 </section>
+
 <section id="main_content" class="container">
     <div class="row">
         <div class="col-md-8 page_content">
-            <h1>Recent News</h1>
+            <h1><?= get_the_archive_title(); ?></h1>
             <hr />
             <?php if (have_posts()) : ?>
             <?php while (have_posts()) : ?>
@@ -31,4 +31,5 @@
         </div>
     </div>
 </section>
+
 <?php get_footer(); ?>
