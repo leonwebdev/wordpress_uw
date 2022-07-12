@@ -98,10 +98,25 @@ header #mobile_menu ul li {
     margin: 0;
 }
 
+.home_card_h a {
+    text-decoration: none;
+}
+
 .home_card_img,
 .w_100_img {
     width: 100%;
     height: auto;
+}
+
+.home_card_img_div a {
+    display: block;
+    width: 100%;
+}
+
+.home_card_img_div a img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
 }
 
 /* ------------     F O O T E R     -------

@@ -24,3 +24,17 @@ if (!function_exists('wp_project_load_scripts')) {
 
     add_action('wp_enqueue_scripts', 'wp_project_load_scripts');
 }
+
+if (!function_exists('wp_project_sidebar_post_query')) {
+    function wp_project_sidebar_post_query()
+    {
+        $args = [
+            'post_type' => 'page',
+            'posts_per_page' => '3',
+            'post__not_in' => [8],
+            'orderby' => 'rand',
+        ];
+        $query = new WP_Query($args);
+        return $query;
+    }
+}
