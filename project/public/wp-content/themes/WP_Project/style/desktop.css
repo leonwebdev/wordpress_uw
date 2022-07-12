@@ -74,7 +74,8 @@ header #mobile_menu ul li {
 /* ------------   M A I N   C O N T E N T   -------
 --------------------------------------------------- */
 
-#page_header > img {
+#page_header > img,
+.page_feature_img > img {
     width: 100%;
     height: auto;
     aspect-ratio: 96/15;
