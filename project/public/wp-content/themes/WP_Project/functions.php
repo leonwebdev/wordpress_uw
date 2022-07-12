@@ -38,3 +38,36 @@ if (!function_exists('wp_project_sidebar_post_query')) {
         return $query;
     }
 }
+
+if (!function_exists('wp_project_cta_post_query')) {
+    function wp_project_cta_post_query()
+    {
+        $args = [
+            'post_type' => 'page',
+            'posts_per_page' => '3',
+            'post__not_in' => [8, 14, 18],
+            'orderby' => 'rand',
+        ];
+        $query = new WP_Query($args);
+        return $query;
+    }
+}
+
+if (!function_exists('wp_project_the_excerpt')) {
+    function wp_project_the_excerpt($excerpt)
+    {
+        global $post;
+        if (!empty($post->post_exerpt)) {
+            $new_ex = $excerpt;
+        } else {
+
+            $sub_ex = substr($excerpt, 0, 200);
+            $space = strrpos($sub_ex, ' ');
+            $sub_ex = substr($sub_ex, 0, $space);
+            $new_ex = $sub_ex . "...";
+        }
+
+        return $new_ex;
+    }
+    add_filter('the_excerpt', 'wp_project_the_excerpt');
+}
