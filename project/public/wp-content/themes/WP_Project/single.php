@@ -10,19 +10,22 @@
             <h1><?php the_title(); ?></h1>
             <hr />
             <?php if (have_posts()) : ?>
-            <?php while (have_posts()) : ?>
-            <?php the_post(); ?>
-            <div class="page_feature_img">
-                <?php if (has_post_thumbnail()) {
+                <?php while (have_posts()) : ?>
+                    <?php the_post(); ?>
+                    <div class="page_feature_img">
+                        <?php if (has_post_thumbnail()) {
                             the_post_thumbnail('full');
                         } ?>
-            </div>
-            <article class="page_content mt-3 mb-5">
-                <p class=""><?php the_content(); ?></p>
-            </article>
+                    </div>
+                    <article class="page_content mt-3 mb-5">
+                        <p class=""><?php the_content(); ?></p>
+                    </article>
 
-            <?php endwhile; ?>
+                <?php endwhile; ?>
             <?php endif; ?>
+            <div id="comments" class="container">
+                <?php comments_template();  ?>
+            </div>
         </div>
         <div class="col-md-4 sidebar">
             <?php get_sidebar(); ?>
