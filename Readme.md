@@ -1,10 +1,15 @@
 # PHP Wordpress
 
 - Lihang Yao <yao-l@webmail.uwinnipeg.ca>
-- <http://wp2.leon-web-dev.com>
+- <http://wp5.leon-web-dev.com>
 - Server IP: 52.60.51.49
 - User Name: admin
-- Password: bUFq879rGumc4Qg
+- Password: ldYYMe@GlysgfgHH%R
+
+---
+
+- @Update July-12
+- WORDPRESS PROJECT COMPLETE
 
 ---
 

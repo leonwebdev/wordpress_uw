@@ -71,6 +71,50 @@ header #mobile_menu ul li {
     margin-bottom: 1rem;
 }
 
+/* ------------   M A I N   C O N T E N T   -------
+--------------------------------------------------- */
+
+#page_header > img,
+.page_feature_img > img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 96/15;
+    object-fit: cover;
+}
+
+.post_list_article h2 a {
+    text-decoration: none;
+    color: rgb(10, 134, 161);
+}
+
+.post_list_article h2 a:hover {
+    color: rgb(161, 10, 123);
+}
+
+/* ------------        S I D E B A R          -------
+--------------------------------------------------- */
+
+.archive_menu {
+    margin-bottom: 2rem;
+}
+
+.archive_menu li {
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.archive_menu li a {
+    color: rgb(11, 161, 231);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.archive_menu li a:hover {
+    color: rgb(255, 91, 15);
+}
+
 /* ------------        CALL TO ACTION          -------
 --------------------------------------------------- */
 
@@ -80,10 +124,26 @@ header #mobile_menu ul li {
     margin: 0;
 }
 
+.home_card_h a {
+    text-decoration: none;
+}
+
 .home_card_img,
 .w_100_img {
     width: 100%;
     height: auto;
+}
+
+.home_card_img_div a {
+    display: block;
+    width: 100%;
+}
+
+.home_card_img_div a img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 30/19;
+    object-fit: cover;
 }
 
 /* ------------     F O O T E R     -------
