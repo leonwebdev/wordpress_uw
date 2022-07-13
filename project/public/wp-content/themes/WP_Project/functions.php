@@ -19,7 +19,7 @@ if (!function_exists('wp_project_load_scripts')) {
     function wp_project_load_scripts()
     {
         wp_enqueue_script('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js');
-        wp_enqueue_script('app_js', get_template_directory_uri() . '/js/app.js');
+        wp_enqueue_script('app_js', get_template_directory_uri() . '/js/app.js',['jquery']);
     }
 
     add_action('wp_enqueue_scripts', 'wp_project_load_scripts');
